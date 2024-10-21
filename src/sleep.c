@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <pico/stdlib.h>
+#include "Lab5.h"
 
 int main(void)
 {
