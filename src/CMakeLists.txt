@@ -1,6 +1,6 @@
 # This is the main binary. List your C files here.
 add_executable(delay
-    delay.c
+    gpio_interrupt.c
     )
 
 pico_set_program_name(delay "test")
