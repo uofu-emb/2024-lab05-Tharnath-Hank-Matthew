@@ -36,5 +36,21 @@
     "raspberry-pi-pico.useCmakeTools": false,
     "raspberry-pi-pico.cmakePath": "${HOME}/.pico-sdk/cmake/v3.28.6/bin/cmake",
     "raspberry-pi-pico.ninjaPath": "${HOME}/.pico-sdk/ninja/v1.12.1/ninja",
-    "raspberry-pi-pico.python3Path": "python3"
+    "raspberry-pi-pico.python3Path": "python3",
+    "python.autoComplete.extraPaths": [
+        "/home/tharnath/build/alphabot_description",
+        "/home/tharnath/install/alphabot_description/lib/python3.10/site-packages",
+        "/home/tharnath/bot_ws/install/iroc_description/lib/python3.10/site-packages",
+        "/home/tharnath/bot_ws/install/alphabot_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tharnath/build/alphabot_description",
+        "/home/tharnath/install/alphabot_description/lib/python3.10/site-packages",
+        "/home/tharnath/bot_ws/install/iroc_description/lib/python3.10/site-packages",
+        "/home/tharnath/bot_ws/install/alphabot_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }
